@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   color: #111;
+  overflow-x: hidden;
 }
 
 h2 {
