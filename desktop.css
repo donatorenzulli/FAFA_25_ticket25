@@ -17,7 +17,7 @@ p {
 }
 
 .navbar {
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 1vh;
   background: #f7a33e;
