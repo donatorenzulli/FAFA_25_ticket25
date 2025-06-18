@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "expanded";
+  src: url("assets/font/Archivo_Expanded-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "condensed";
+  src: url("assets/font/Archivo_Condensed-Bold.ttf") format("truetype");
+}
+
+h2 {
+  font-family: "expanded";
+  font-size: 5vw;
+  line-height: 90%;
+}
+
+h3 {
+  font-family: "condensed";
+  font-size: 1.4vw;
+  line-height: 100%;
+}
+
+p {
+  font-size: 1.3vw;
+  line-height: 90%;
+}
