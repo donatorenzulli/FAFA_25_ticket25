@@ -16,11 +16,23 @@ h2 {
 
 h3 {
   font-family: "condensed";
+  margin: 0;
   font-size: 1.4vw;
-  line-height: 100%;
 }
 
 p {
   font-size: 1.3vw;
   line-height: 90%;
+}
+
+.footer-txt{
+  color: #fff;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
