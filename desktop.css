@@ -46,6 +46,10 @@ body {
   justify-content: center;
 }
 
+.hero-mobile{
+  display: none;
+}
+
 .title {
   position: absolute;
   top: 2vh;
@@ -201,9 +205,15 @@ body {
   color: #fff;
 }
 
+.map-google{
+width: 600px;
+height: 450px;
+}
+
 .ticket-button {
   position: fixed;
   bottom: 30px;
+  margin-bottom: 3vh;
   left: 50%;
   transform: translateX(-50%);
   background: #f7a33e;
