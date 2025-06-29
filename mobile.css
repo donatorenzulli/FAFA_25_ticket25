@@ -115,13 +115,15 @@ p {
 }
 
 .info-image {
-  display: flex;
+
+  display: none;
   align-items: center;
   overflow: hidden;
   justify-content: center;
 }
 
 .info-img {
+    display: none;
   flex: 1;
   width: 100%;
   height: 100%;

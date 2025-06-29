@@ -210,6 +210,18 @@ width: 600px;
 height: 450px;
 }
 
+.map-text{
+  font-family: "expanded";
+  padding: 5vh;
+  margin-top: 5vh;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 5vw;
+  margin-bottom: 20px;
+
+
+}
+
 .ticket-button {
   position: fixed;
   bottom: 30px;
