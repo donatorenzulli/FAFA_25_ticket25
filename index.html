@@ -1,132 +1,60 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAFA FEST 2025</title>
+<head>
+  <meta charset="UTF-8">
+  <title>GenerACT</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
 
-    <link rel="stylesheet" href="font-mobile.css" media="(max-width: 767px)">
-    <link rel="stylesheet" href="font.css" media="(min-width: 768px)">    
-    <link rel="stylesheet" href="desktop.css" media="(min-width: 768px)">
-    <link rel="stylesheet" href="mobile.css" media="(max-width: 767px)">
+    marquee {
+      background: #000;
+      color: #fff;
+      padding: 10px 0;
+      font-size: 1.2rem;
+    }
 
+    .center-button-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contatti">Contatti</a></li>
-      </ul>
-    </nav>
+    .big-button {
+      font-size: 2rem;
+      padding: 0.5em ;
+      background-color: #bba1ff;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
 
-    <!-- HERO SECTION -->
-    <section class="hero" id="home">
-      <div class="title">
-        <img class="title-img" src="assets/fafa.png" alt="" />
-        <div class="data"> <h3>29 AGOSTO 2025  | DALLE 18:00 <br> PARCO ICONAVETERE, FOGGIA</h3> </div>
-        <div class="data"> <h3>COME NESSUNO <br> MI HA GUARDATA MAI</h3> </div>
-      </div>
-      <div class="hero-bg">
-        <img class="hero-img" src="assets/main.png" alt="Titolo Festival" />
-      </div>
-    </section>
+    .big-button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
 
+  <marquee behavior="scroll" direction="left">Il sito di GENERACT prima o poi esisterà</marquee>
 
-        <!-- HERO SECTION - mobile -->
+  <div class="center-button-container">
+   <a href="fafa.html"><button class="big-button">Scopri il FAFA FEST 2025</button> </a> 
+  </div>
 
-        <section class="hero-mobile" id="home">
-      <div class="title">
-        <img class="title-img" src="assets/fafa.png" alt="" />
-        <div>
-        <div class="data"> <h3>29 AGOSTO 2025   <br> PARCO ICONAVETERE, FOGGIA</h3> </div>
-        <!-- <div class="data"> <h3>COME NESSUNO <br> MI HA GUARDATA MAI</h3> </div> -->
-        </div>
-      </div>
-      <div class="hero-bg">
-        <img class="hero-img" src="assets/main.png" alt="Titolo Festival" />
-      </div>
-    </section>
+  <marquee behavior="scroll" direction="right">Il sito di GENERACT prima o poi esisterà</marquee>
 
-    <!-- INFO SECTION -->
-
-    <div class="info">
-      <div class="info-text">
-        <h2>FAFA FEST 2025  </h2> <h3> Come nessuno mi ha guardata mai</h3> 
-        <p>
-        FAFA FEST è il festival indipendente nato a Foggia e organizzato dall’associazione culturale Generact APS.
-
-        Ogni anno il Festival trasforma le aree dimenticate della città in luoghi pulsanti di musica e arte. <br> <br>
-
-      Il FAFA è per chi sente il bisogno di ritrovarsi in uno spazio che accolga e che riporti la cultura dove dovrebbe stare: tra le persone.
-
-      Venerdì 29 agosto 2025 il Festival si terrà presso il Parco Iconavetere con live, stand e aree dedicate a food, beverage e relax.
-        </p>
-      </div>
-      <div class="info-image">
-        <img class="info-img" src="assets/fafap.jpg" alt="Festival Image" />
-      </div>
-    </div>
-
-    <!-- LINEUP SECTION -->
-    <div class="lineup">
-      <h2>LINE UP 2025</h2>
-      <div class="lineup-artisti">
-        <div class="single-artist">
-          <div class="artist-img" style="background-image: url('assets/artists/stefv2.png');">
-            <div class="artist-name">
-              <img src="assets/artists/name_stef2.png" alt="">
-            </div>
-          </div>
-        </div>
-
-               <div class="single-artist">
-          <div class="artist-img" style="background-image: url('assets/artists/giusev2.png');">
-            <div class="artist-name">
-              <img src="assets/artists/name_giuse.png" alt="">
-            </div>
-          </div>
-        </div>
-        
-        <div class="single-artist">
-          <div class="artist-img" style="background-image: url('assets/artists/baisv2.png');">
-            <div class="artist-name">
-              <img src="assets/artists/name_bais.png" alt="">
-            </div>
-          </div>
-        </div>
-    
- 
-
-        <div class="single-artist">
-          <div class="artist-img" style="background-image: url('assets/artists/18kv2.png');">
-            <div class="artist-name">
-              <img src="assets/artists/name_18.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <!-- MAP SECTION -->
-
-      <div class="map">
-        <div class="map-text">
-        Come raggiungerci</div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.6157949671247!2d15.53850497650821!3d41.46924767128963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1339d8f35c6f17bf%3A0xf9c586312e4f554c!2sParco%20dell&#39;Iconavetere!5e0!3m2!1sit!2sit!4v1751138139258!5m2!1sit!2sit" class="map-google" style="border:0; border-radius: 1vw;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    
-
-    <!-- FOOTER -->
-    <footer class="footer" id="contatti">
-      <h3 class="footer-txt"> info@fafafest.it  </h3>
-      <h3>  <a href="https://www.instagram.com/fafa_festival/" class="footer-txt" target="_blank"> @fafa_festival </a> </h3> 
-    </footer>
-
-    <!-- FIXED TICKET BUTTON -->
-    <a href="https://dice.fm/event/wwoarv-fafa-fest-29th-aug-parco-iconavetere-foggia-tickets" class="ticket-button" target="_blank">
-     <h3>  Acquista il biglietto!</h3>
-    </a>
+</body>
 </html>
